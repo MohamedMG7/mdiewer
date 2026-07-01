@@ -1,0 +1,30 @@
+{
+  "version": "0.1.0",
+  "description": "Small terminal Markdown viewer.",
+  "homepage": "https://github.com/MohamedMG7/mdiewer",
+  "license": "NOASSERTION",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/MohamedMG7/mdiewer/releases/download/v0.1.0/mdiewer-windows-amd64.zip",
+      "hash": "d48d33ce18fcd65878c56b28cdaef0d768786093303fec4d15bcbf955033b639"
+    },
+    "arm64": {
+      "url": "https://github.com/MohamedMG7/mdiewer/releases/download/v0.1.0/mdiewer-windows-arm64.zip",
+      "hash": "ae0b10fdc49780c2ce6c7a931952f32e3a03369a00bde3e8a5433ba4d2739d29"
+    }
+  },
+  "bin": "mdiewer.exe",
+  "checkver": {
+    "github": "https://github.com/MohamedMG7/mdiewer"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/MohamedMG7/mdiewer/releases/download/v$version/mdiewer-windows-amd64.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/MohamedMG7/mdiewer/releases/download/v$version/mdiewer-windows-arm64.zip"
+      }
+    }
+  }
+}

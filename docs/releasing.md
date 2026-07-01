@@ -45,7 +45,7 @@ The scripts install the binary into a user-level PATH location.
 
 Use the GitHub Release assets as the source for package managers.
 
-- Scoop can point directly to `mdiewer-windows-amd64.zip` and use `"bin": "mdiewer.exe"`.
+- Scoop can point directly to `mdiewer-windows-amd64.zip` and use `"bin": "mdiewer.exe"`. A starter manifest lives at `packaging/scoop/mdiewer.json`.
 - Homebrew can point to the macOS/Linux tarballs.
 - winget should point to a Windows installer once one exists.
 - Chocolatey can package and shim `mdiewer.exe`.
