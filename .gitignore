@@ -1,0 +1,5 @@
+.gocache/
+.gotmp/
+dist/
+mdiewer
+mdiewer.exe
